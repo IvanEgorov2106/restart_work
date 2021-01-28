@@ -1,4 +1,42 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;    
+    background-color: aqua;
+    align-items: center;
+   
+   
+}
+.mainImage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow:0;
+}
+
+
+.mainMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 2;
+    
+}
+.mainMenu li{
+    margin:0 5%;
+}
+
+
+div {
+    font-size: 35px;
 }
