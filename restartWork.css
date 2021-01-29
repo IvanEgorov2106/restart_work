@@ -10,32 +10,41 @@
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;    
+    justify-content: space-between;
+    padding: 2% 10%;
     background-color: aqua;
     align-items: center;
-   
-   
+    color: #000;
+    
 }
-.mainImage{
+
+.mainImage {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
-    flex-grow:0;
 }
-
-
-.mainMenu{
+nav{
+    flex-grow: 0.5;
+    
+}
+.mainMenu {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    flex-grow: 2;
+    justify-content: space-between;
+    align-items: center;
+    
     
 }
 .mainMenu li{
-    margin:0 5%;
+    margin: 0 2%;
+   
 }
-
+.getStarted{
+    padding: 10px;
+    border: 1px solid #2f88f1;
+    border-radius: 5px;
+    color: #2f88f1;
+}
 
 div {
     font-size: 35px;
