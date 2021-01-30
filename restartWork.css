@@ -3,18 +3,17 @@
     padding: 0;
     text-decoration: none;
     list-style-type: none;
+    color: black;
+    background-color: #e4eef8;
     
 }
-
-
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 2% 10%;
-    background-color: #e4eef8;
     align-items: center;
-    color: #000;
+   
     
 }
 
@@ -22,6 +21,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    font-size: 35px;
 }
 nav{
     flex-grow: 0.5;
@@ -31,21 +31,35 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    
-    
+    align-items: center;    
 }
 .mainMenu li{
     margin: 0 2%;
-   
+    font-size: 20px;   
 }
 .getStarted{
     padding: 10px;
     border: 1px solid #2f88f1;
     border-radius: 5px;
     color: #2f88f1;
+    font-size: 25px;
 }
-
-div {
-    font-size: 35px;
+.getStarted a{
+    color: #2f88f1;
+}
+.makeLanding{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    width: 30%;
+    margin:  0 auto;
+    text-align: center;
+}
+.makeLanding h1{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.makeLanding span{
+    width: 90%;
 }
